@@ -10,7 +10,7 @@ class Solution
         // If it is we know there is no duplicates.
         if (nums.size() <= 1) return false;
 
-        // Sort the vecotr of numbers.
+        // Sort the vector is ascending order.
         std::sort(nums.begin(), nums.end());
 
         // Now we can loop through a sorted vecotor strarting from the SECOND element.
